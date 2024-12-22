@@ -1,0 +1,68 @@
+.Direction:hover{
+    color: red !important;
+    text-decoration: underline;
+    transition: color 0.5s;
+}
+
+
+.facebook{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.facebook:hover{
+    fill: blue; 
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.X{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .X:hover{
+    fill: rgb(130, 130, 139); 
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.insta{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .insta:hover{
+    fill: rgb(209, 36, 148); 
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.tiktok{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .tiktok:hover{
+    fill: rgb(229, 8, 8); 
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+
+.footerLinks:hover{
+ color: red !important;
+}
+
+.footerForm:hover{
+  background-color: transparent !important;
+  color: black !important;
+  transition: background-color 0.5s;
+}

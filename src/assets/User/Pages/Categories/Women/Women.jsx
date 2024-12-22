@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import style from './Women.module.css'
 import { Pagination } from 'swiper/modules';
+import style from './Women.module.css'
 
 export default function Women() {
  
@@ -102,13 +102,78 @@ export default function Women() {
       </Swiper>
     </div>
    
-    <div className='categories container'>
-      <div className="row">
-        
+    <div className='categories container mt-5'>
+      
+        <h1 className={`text-center ${style.ctegoriesTitle}`} >Categories you might like</h1>
+      
+      <div className={`categoriesStyle d-flex justify-content-center align-items-center vh-100 mt-2`}>
+      <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <div className={`card ${style.collections}`}>
+            <Link to={'/shop'}>
+            <img src='/public/images/Categories/women/collections/collection-42.jpg' className={`${style.collectionsImage}`} />
+            </Link>
+             <div className={`${style.collectionsButton}`}>
+             <Link className={`btn btn-outline-success w-100 `} to={`/shop`}>Tops</Link>
+             </div>       
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className={`card ${style.collections}`}>
+            <Link to={'/shop'}>
+            <img src='/public/images/Categories/women/collections/collection-43.jpg' className={`${style.collectionsImage}`} />
+            </Link>
+             <div className={`${style.collectionsButton}`}>
+             <Link className={`btn btn-outline-success w-100 `} to={`/shop`}>SweetShirts</Link>
+             </div>       
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className={`card ${style.collections}`}>
+            <Link to={'/shop'}>
+            <img src='/public/images/Categories/women/collections/collection-44.jpg' className={`${style.collectionsImage}`} />
+            </Link>
+             <div className={`${style.collectionsButton}`}>
+             <Link className={`btn btn-outline-success w-100 `} to={`/shop`}>Swim</Link>
+             </div>       
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className={`card ${style.collections}`}>
+            <Link to={'/shop'}>
+            <img src='/public/images/Categories/women/collections/collection-45.jpg' className={`${style.collectionsImage}`} />
+            </Link>
+             <div className={`${style.collectionsButton}`}>
+             <Link className={`btn btn-outline-success w-100 `} to={`/shop`}>Dress</Link>
+             </div>       
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className={`card ${style.collections}`}>
+            <Link to={'/shop'}>
+            <img src='/public/images/Categories/women/collections/collection-46.jpg' className={`${style.collectionsImage}`} />
+            </Link>
+             <div className={`${style.collectionsButton}`}>
+             <Link className={`btn btn-outline-success w-100 `} to={`/shop`}>Cardigans</Link>
+             </div>       
+          </div>
+        </SwiperSlide>
+      </Swiper>
       </div>
 
     </div>
     
+    <div className={``}>
+
+    </div>
 
   </div>
   

@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="row">
           <div className={`col-lg-4 col-md-6`}>
               <div className={`footer-Logo`}>
-                  <img src='/public/images/Logo/logo.png' width={`80px`} className={`img-fluid`} alt='Our Logo' />
+                  <img src='/images/Logo/logo.png' width={`80px`} className={`img-fluid`} alt='Our Logo' />
               </div>
               <div className={`footer-content`}>
              <address className={``}>

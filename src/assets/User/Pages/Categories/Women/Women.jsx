@@ -119,7 +119,7 @@ export default function Women() {
         <SwiperSlide>
           <div className={`card ${style.collections}`}>
             <Link to={'/shop'}>
-            <img src='/public/images/Categories/women/collections/collection-42.jpg' className={`${style.collectionsImage}`} />
+            <img src='/images/Categories/women/collections/collection-42.jpg' className={`${style.collectionsImage}`} />
             </Link>
              <div className={`${style.collectionsButton}`}>
              <Link className={`btn btn-outline-success w-100 `} to={`/shop`}>Tops</Link>
@@ -129,7 +129,7 @@ export default function Women() {
         <SwiperSlide>
         <div className={`card ${style.collections}`}>
             <Link to={'/shop'}>
-            <img src='/public/images/Categories/women/collections/collection-43.jpg' className={`${style.collectionsImage}`} />
+            <img src='/images/Categories/women/collections/collection-43.jpg' className={`${style.collectionsImage}`} />
             </Link>
              <div className={`${style.collectionsButton}`}>
              <Link className={`btn btn-outline-success w-100 `} to={`/shop`}>SweetShirts</Link>
@@ -139,7 +139,7 @@ export default function Women() {
         <SwiperSlide>
         <div className={`card ${style.collections}`}>
             <Link to={'/shop'}>
-            <img src='/public/images/Categories/women/collections/collection-44.jpg' className={`${style.collectionsImage}`} />
+            <img src='/images/Categories/women/collections/collection-44.jpg' className={`${style.collectionsImage}`} />
             </Link>
              <div className={`${style.collectionsButton}`}>
              <Link className={`btn btn-outline-success w-100 `} to={`/shop`}>Swim</Link>
@@ -149,7 +149,7 @@ export default function Women() {
         <SwiperSlide>
         <div className={`card ${style.collections}`}>
             <Link to={'/shop'}>
-            <img src='/public/images/Categories/women/collections/collection-45.jpg' className={`${style.collectionsImage}`} />
+            <img src='/images/Categories/women/collections/collection-45.jpg' className={`${style.collectionsImage}`} />
             </Link>
              <div className={`${style.collectionsButton}`}>
              <Link className={`btn btn-outline-success w-100 `} to={`/shop`}>Dress</Link>
@@ -159,7 +159,7 @@ export default function Women() {
         <SwiperSlide>
         <div className={`card ${style.collections}`}>
             <Link to={'/shop'}>
-            <img src='/public/images/Categories/women/collections/collection-46.jpg' className={`${style.collectionsImage}`} />
+            <img src='/images/Categories/women/collections/collection-46.jpg' className={`${style.collectionsImage}`} />
             </Link>
              <div className={`${style.collectionsButton}`}>
              <Link className={`btn btn-outline-success w-100 `} to={`/shop`}>Cardigans</Link>
